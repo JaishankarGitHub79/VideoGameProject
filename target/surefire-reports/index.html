@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\CodeRepository\VideoGameProject-master\testng.xml</span>
+                    <span>C:\CodeRepository\VideoGameProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -183,13 +183,16 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\CodeRepository\VideoGameProject-master\testng.xml</span>
+            <span class="header-content">C:\CodeRepository\VideoGameProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC_VideoGameAPI&quot;/&gt;
@@ -236,28 +239,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_DeleteVideoGame')
 data.setCell(0, 2, 'testCases.TC_VideoGameAPI')
-data.setCell(0, 3, 3025);
+data.setCell(0, 3, 3022);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_getAllVideoGames')
 data.setCell(1, 2, 'testCases.TC_VideoGameAPI')
-data.setCell(1, 3, 2645);
+data.setCell(1, 3, 1884);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_addNewVideoGame')
+data.setCell(2, 1, 'test_getVideoGame')
 data.setCell(2, 2, 'testCases.TC_VideoGameAPI')
-data.setCell(2, 3, 707);
+data.setCell(2, 3, 434);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_getVideoGame')
+data.setCell(3, 1, 'test_addNewVideoGame')
 data.setCell(3, 2, 'testCases.TC_VideoGameAPI')
-data.setCell(3, 3, 593);
+data.setCell(3, 3, 339);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test_UpdateVideoGame')
 data.setCell(4, 2, 'testCases.TC_VideoGameAPI')
-data.setCell(4, 3, 69);
+data.setCell(4, 3, 57);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -290,19 +293,19 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_addNewVideoGame</span>
-                <span class="method-start">2649 ms</span>
+                <span class="method-start">1901 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_getVideoGame</span>
-                <span class="method-start">3361 ms</span>
+                <span class="method-start">2240 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_UpdateVideoGame</span>
-                <span class="method-start">3955 ms</span>
+                <span class="method-start">2675 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_DeleteVideoGame</span>
-                <span class="method-start">4025 ms</span>
+                <span class="method-start">2732 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

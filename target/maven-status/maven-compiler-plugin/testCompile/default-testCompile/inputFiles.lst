@@ -1,3 +1,5 @@
-C:\CodeRepository\VideoGameProject-master\src\test\java\testCases\TC_VideoGameAPI.java
-C:\CodeRepository\VideoGameProject-master\src\test\java\utilities\XLUtils.java
-C:\CodeRepository\VideoGameProject-master\src\test\java\testCases\TC_AddVideoGameDDT.java
+C:\CodeRepository\VideoGameProject\src\test\java\testCases\TC_VideoGameAPI.java
+C:\CodeRepository\VideoGameProject\src\test\java\utilities\ExtentListeners.java
+C:\CodeRepository\VideoGameProject\src\test\java\utilities\XLUtils.java
+C:\CodeRepository\VideoGameProject\src\test\java\testCases\TC_AddVideoGameDataDriven.java
+C:\CodeRepository\VideoGameProject\src\test\java\utilities\ExtentManager.java

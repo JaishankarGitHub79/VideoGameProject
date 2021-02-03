@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse--1093945935\testng-customsuite.xml</span>
+                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse--2019361641\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,26 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.TC_VideoGameAPI" hash-for-method="test_DeleteVideoGame">test_DeleteVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.TC_VideoGameAPI" hash-for-method="test_UpdateVideoGame">test_UpdateVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.TC_VideoGameAPI" hash-for-method="test_addNewVideoGame">test_addNewVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.TC_VideoGameAPI" hash-for-method="test_getAllVideoGames">test_getAllVideoGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.TC_VideoGameAPI" hash-for-method="test_getVideoGame">test_getVideoGame</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,12 +150,40 @@
                   <span class="method-name">test_DeleteVideoGame</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_UpdateVideoGame">
+                  </a> <!-- test_UpdateVideoGame -->
+                  <span class="method-name">test_UpdateVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_addNewVideoGame">
+                  </a> <!-- test_addNewVideoGame -->
+                  <span class="method-name">test_addNewVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_getAllVideoGames">
+                  </a> <!-- test_getAllVideoGames -->
+                  <span class="method-name">test_getAllVideoGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_getVideoGame">
+                  </a> <!-- test_getVideoGame -->
+                  <span class="method-name">test_getVideoGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse--1093945935\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse--2019361641\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,11 +232,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_DeleteVideoGame')
 data.setCell(0, 2, 'testCases.TC_VideoGameAPI')
-data.setCell(0, 3, 6016);
+data.setCell(0, 3, 3032);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_getAllVideoGames')
+data.setCell(1, 2, 'testCases.TC_VideoGameAPI')
+data.setCell(1, 3, 2138);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_getVideoGame')
+data.setCell(2, 2, 'testCases.TC_VideoGameAPI')
+data.setCell(2, 3, 638);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_addNewVideoGame')
+data.setCell(3, 2, 'testCases.TC_VideoGameAPI')
+data.setCell(3, 3, 530);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_UpdateVideoGame')
+data.setCell(4, 2, 'testCases.TC_VideoGameAPI')
+data.setCell(4, 3, 61);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -221,8 +285,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_VideoGameAPI</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test_DeleteVideoGame</span>
+                <span class="method-name">test_getAllVideoGames</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_addNewVideoGame</span>
+                <span class="method-start">2149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_getVideoGame</span>
+                <span class="method-start">2693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_UpdateVideoGame</span>
+                <span class="method-start">3333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_DeleteVideoGame</span>
+                <span class="method-start">3395 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

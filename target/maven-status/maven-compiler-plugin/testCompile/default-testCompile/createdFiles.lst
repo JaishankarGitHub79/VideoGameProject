@@ -1,3 +1,5 @@
+testCases\TC_AddVideoGameDataDriven.class
+utilities\ExtentListeners.class
 testCases\TC_VideoGameAPI.class
 utilities\XLUtils.class
-testCases\TC_AddVideoGameDDT.class
+utilities\ExtentManager.class
